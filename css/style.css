@@ -1,0 +1,148 @@
+html, body, div, span, h1, h2, h3, p,
+a, address, img, small, ol, ul, li,
+form, label, article, aside, footer,
+header, menu, nav, section, time {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, footer, header,
+menu, nav, section {
+  display: block;
+}
+html {
+  height: 100%;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+input, button {
+  font: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+    min-width: 360px;
+}
+
+.header {
+    position: relative;
+    z-index: 0;
+    height: 640px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: url("../img/banner-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;   
+    background-size: cover;
+
+    text-transform: uppercase;
+}
+
+.header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: -1;
+  }
+
+.menu {
+    display: flex;
+    justify-content: end;
+    padding-top: 31px;
+    margin-bottom: 174px;
+}
+
+.burger-checkbox {
+    position: absolute;
+    visibility: hidden;
+}
+
+.burger {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    display: block;
+    border: none;
+    background: transparent;
+    width: 24px;
+    height: 19px;
+    order: 4;
+    margin-left: 15px;
+}
+
+.burger::before,
+.burger::after {
+    content: '';
+    left: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.burger::before {
+    box-shadow: 0 8px 0 #ffffff;
+}
+
+.burger::after {
+    bottom: 0;
+}
+
+.menu-list {
+display: none;
+align-items: center;
+gap: 15px;
+}
+
+.menu-item {
+display: block;
+color: white;
+font-size: 13px;
+font-weight: 400;
+text-align: center;
+}
+
+.burger-checkbox:checked ~ .menu-list {
+    display: flex;
+}
+
+.header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo {
+    width: 269px;
+    height: 61px;
+    margin-bottom: 42px;
+}
+
+.header-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
