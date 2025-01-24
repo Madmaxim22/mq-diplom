@@ -349,6 +349,10 @@ body {
     color: #b59f5b;
 }
 
+.post-content .tag:hover {
+    text-decoration: underline;
+}
+
 .post-title {
     margin-bottom: 17px;
 
@@ -509,6 +513,10 @@ body {
     font-size: 14px;
     color: #ffffff;
     text-align: center;
+}
+
+.miling-button:hover {
+    background-color: #000000;
 }
 
 .tag-head {

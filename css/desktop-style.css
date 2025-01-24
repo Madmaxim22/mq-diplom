@@ -21,6 +21,10 @@ body {
     justify-content: center;
 }
 
+.menu-item:hover {
+    text-decoration: underline;
+}
+
 .burger-checkbox {
     display: none;
 }
@@ -139,6 +143,11 @@ body {
     margin-bottom: 14px;
 }
 
+.field:focus {
+    outline: none;
+    border-bottom: 1px solid #b59f5b;
+}
+
 .section-container .list-tag {
     gap: 3px 7px;
 }
@@ -198,6 +207,9 @@ body {
     line-height: 22px;
 }
 
+.button-goods:hover {
+    background-color: #000000;
+}
 
 .footer {
     margin-top: 64px;
