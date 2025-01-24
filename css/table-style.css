@@ -1,0 +1,280 @@
+body {
+    min-width: 641px;
+}
+
+.header {
+    height: 392px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 43px;
+    padding-bottom: 125px;
+    box-sizing: border-box;
+    background-image: url("../img/Table/banner-bg-tablet.jpg");
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.header-logo-link {
+    display: block;
+    width: 158px;
+    height: 35px;
+    margin: 0;
+}
+
+.menu {
+    order: 1;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+    margin-left: auto;
+}
+
+.menu-list {
+    padding-right: 0;
+}
+
+.burger {
+    margin-left: 30px;
+}
+
+.burger-checkbox:checked ~ .menu-list {
+    display: flex;
+    gap: 35px;
+}
+
+.header-title {
+    width: 611px;
+    font-size: 40px;
+    line-height: 56px;
+}
+
+/*  <-- Main start -->  */
+.trend-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.trend-head {
+    padding: 46px 35px 35px;
+}
+
+.section-title {
+    font-size: 18px;
+}
+
+.section-title::before {
+    margin-top: 30px;
+}
+
+.section-content {
+    width: calc(100% / 2 - 2px);
+    min-height: 246px;
+    padding: 13px 18px;
+}
+
+@media (orientation: landscape) {
+    .trend-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .section-content {
+        width: calc(100% / 4 - 3px);
+    }
+}
+
+.content {
+    padding: 32px 30px 30px 30px;
+}
+
+.section-trend .list-tag {
+    margin-bottom: 8px;
+}
+
+.title-trend {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.main-container {
+    display: flex;
+    gap: 35px;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.posts {
+    padding: 0;
+    width: 56%;
+    gap: 39px;
+}
+
+.posts-container {
+    gap: 13px;
+}
+
+.post-content .list-tag {
+    margin-bottom: 8px;
+    gap: 18px;
+}
+
+.posts .post-title {
+    margin-bottom: 22px;
+
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.post-meta {
+    margin-bottom: 26px;
+    line-height: 27px;
+}
+
+.post-content {
+    width: 100%;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.post-content-margin {
+    margin-bottom: 12px;
+}
+
+.sidebar {
+    padding: 0;
+    width: 273px;
+}
+
+.new-post-head {
+    padding-top: 0;
+    padding-bottom: 42px;
+}
+
+.sidebar .section-title::before {
+    margin-top: 28px;
+}
+
+.sidebar .section-title {
+    font-size: 14px;
+}
+
+.new-post-container {
+    margin-bottom: 60px;
+}
+
+.new-post-container .post-title{
+    margin: 0;
+}
+
+.mailing-head {
+    padding-top: 62px;
+    padding-bottom: 40px;
+}
+
+.tag-head {
+    padding-top: 57px;
+    padding-bottom: 38px;
+}
+
+.topic-head {
+    padding-top: 59px;
+    padding-bottom: 40px;
+}
+
+.goods-container {
+    display: flex;
+    gap: 30px 22px;
+    flex-wrap: wrap;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.goods-head {
+    padding-top: 46px;
+}
+
+.goods {
+    width: calc(100% / 2 - 11px);
+    padding: 0;
+    margin: 0;
+    justify-content: start;
+}
+
+.goods picture {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.img-goods {
+    width: 100%;
+    object-fit: cover;
+}
+
+.container-goods {
+    width: 100%;
+    height: 100%;
+    padding: 52px 20px 24px;
+}
+
+.content-goods {
+    margin-bottom: 20px;
+    width: 102%;
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.popup {
+    position: absolute;
+    top: 533px;
+    left: 50%;
+    width: 390px;
+    height: 595px;
+    padding-top: 52px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+}
+
+.popup-content {
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.element-captions {
+    margin-bottom: 11px;
+}
+
+.content-site-textarea {
+    padding-left: 22px;
+    padding-top: 20px;
+}
+
+.popup-button {
+    margin-left: 28px;
+    margin-right: 28px;
+    width: 330px;
+}
+
+
+.popup-button-close {
+    top: -37px;
+  }
+
+.footer {
+    margin-top: 54px;
+    padding-right: 35px;
+    padding-left: 35px;
+    gap: 49px;
+}
+
+

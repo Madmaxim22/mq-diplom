@@ -1,0 +1,211 @@
+body {
+    min-width: 1200px;
+}
+
+/*  <-- Header start -->  */
+.header {
+    height: 448px;
+    padding-left: 250px;
+    padding-right: 241px;
+    padding-top: 29px;
+    padding-bottom: 145px;
+    background-image: url("../img/Desktop/banner-bg.jpg");
+}
+
+.header-container {
+    margin-bottom: 108px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.burger-checkbox {
+    display: none;
+}
+
+.burger {
+    display: none;
+}
+
+.menu-list {
+    display: flex;
+    gap: 35px;
+}
+
+.header-logo-link {
+    width: 179px;
+}
+
+.header-title {
+    width: 690px;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 76px;
+}
+
+.trend-container {
+    display: flex;
+    gap: 5px;
+}
+
+.trend-head {
+    padding: 62px 15px 41px;
+}
+
+.section-title {
+    font-size: 20px;
+}
+
+.section-content {
+    padding: 15px 20px;
+    min-height: 320px;
+    display: flex;
+    width: calc(100% / 4 - 4px);
+}
+
+.content {
+    padding: 33px 28px 32px 32px;
+}
+
+.section-trend .list-tag {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 20px;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+}
+
+.title-trend {
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 62px;
+    padding-left: 245px;
+    padding-right: 243px;
+}
+
+.posts {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.posts-container {
+    flex-direction: row;
+    gap: 34px;
+}
+
+.post-content .list-tag {
+    margin-bottom: 5px;
+    gap: 18px;
+}
+
+.posts .post-title {
+    margin-bottom: 23px;
+    width: 85%;
+
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.post-meta {
+    margin-bottom: 43px;
+}
+
+
+.post-content {
+    width: 90%;
+    line-height: 21px;
+}
+
+.new-post-head {
+    padding-bottom: 43px;
+}
+
+.new-post-container {
+    margin-bottom: 63px;
+}
+
+.mailing-group {
+    margin-bottom: 14px;
+}
+
+.section-container .list-tag {
+    gap: 3px 7px;
+}
+
+.topic-head {
+    padding-top: 59px;
+    padding-bottom: 40px;
+}
+
+.tag-head {
+    padding-top: 60px;
+    padding-bottom: 39px;
+}
+
+.goods-container {
+    display: flex;
+    gap: 5.5%;
+    flex-wrap: nowrap;
+    padding-left: 245px;
+    padding-right: 245px;
+}
+
+.goods {
+    width: calc(100% / 3);
+    padding: 0;
+    margin: 0;
+    justify-content: start;
+}
+
+.goods-head {
+    padding-top: 42px;
+}
+
+.goods picture {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.img-goods {
+    width: 100%;
+    object-fit: cover;
+}
+
+.container-goods {
+    padding: 52px 19px 26px;
+}
+
+.title-goods {
+    margin-bottom: 4px;
+
+    font-size: 20px;
+}
+
+.content-goods {
+    margin-bottom: 22px;
+
+    line-height: 22px;
+}
+
+
+.footer {
+    margin-top: 64px;
+    padding-right: 245px;
+    padding-left: 245px;
+    gap: 72px;
+}
+
+.copyright {
+    padding-left: 13px;
+}
