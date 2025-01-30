@@ -3,34 +3,33 @@ body {
 }
 
 .header {
-    height: 392px;
-    padding-left: 35px;
-    padding-right: 35px;
     padding-top: 43px;
-    padding-bottom: 125px;
+    padding-bottom: 112px;
     box-sizing: border-box;
     background-image: url("../img/Table/banner-bg-tablet.jpg");
 }
 
 .header-container {
+    max-width: 698px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 88px;
     display: flex;
-    justify-content: center;
-    margin-bottom: 90px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 .header-logo-link {
     display: block;
     width: 158px;
-    height: 35px;
     margin: 0;
 }
 
 .menu {
-    order: 1;
-    padding-top: 0px;
+    padding-top: 0;
+    padding-right: 0;
     margin-bottom: 0px;
     align-items: center;
-    margin-left: auto;
 }
 
 .menu-list {
@@ -60,15 +59,15 @@ body {
 }
 
 .trend-head {
-    padding: 46px 35px 35px;
+    padding: 45px 35px 18px;
 }
 
 .section-title {
     font-size: 18px;
 }
 
-.section-title::before {
-    margin-top: 30px;
+.section-title::after {
+    margin-top: 14px;
 }
 
 .section-content {
@@ -102,12 +101,13 @@ body {
 }
 
 .main-container {
+    max-width: 698px;
     display: flex;
-    gap: 35px;
+    gap: 31px;
     justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 50px;
-    padding-left: 35px;
-    padding-right: 35px;
 }
 
 .posts {
@@ -138,7 +138,6 @@ body {
 }
 
 .post-content {
-    width: 100%;
     font-size: 15px;
     line-height: 21px;
 }
@@ -154,11 +153,7 @@ body {
 
 .new-post-head {
     padding-top: 0;
-    padding-bottom: 42px;
-}
-
-.sidebar .section-title::before {
-    margin-top: 28px;
+    padding-bottom: 23px;
 }
 
 .sidebar .section-title {
@@ -166,7 +161,7 @@ body {
 }
 
 .new-post-container {
-    margin-bottom: 60px;
+    margin-bottom: 65px;
 }
 
 .new-post-container .post-title{
@@ -174,30 +169,31 @@ body {
 }
 
 .mailing-head {
-    padding-top: 62px;
-    padding-bottom: 40px;
+    padding-top: 60px;
 }
 
 .tag-head {
     padding-top: 57px;
-    padding-bottom: 38px;
+    padding-bottom: 22px;
 }
 
 .topic-head {
-    padding-top: 59px;
-    padding-bottom: 40px;
+    padding-top: 57px;
+    padding-bottom: 24px;
 }
 
 .goods-container {
+    max-width: 698px;
     display: flex;
     gap: 30px 22px;
     flex-wrap: wrap;
-    padding-left: 35px;
-    padding-right: 35px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .goods-head {
-    padding-top: 46px;
+    padding-top: 42px;
+    padding-bottom: 26px;
 }
 
 .goods {
@@ -218,13 +214,12 @@ body {
 }
 
 .container-goods {
-    width: 100%;
     height: 100%;
     padding: 52px 20px 24px;
 }
 
 .content-goods {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     width: 102%;
 
     font-weight: 400;
@@ -233,16 +228,15 @@ body {
 }
 
 .popup {
-    position: absolute;
-    top: 533px;
-    left: 50%;
     width: 390px;
-    height: 595px;
     padding-top: 52px;
-    padding-bottom: 40px;
+    padding-bottom: 54px;
     box-sizing: border-box;
-    transform: translate(-50%, -50%);
     background-color: #ffffff;
+}
+
+.popup-head {
+    padding-bottom: 26px;
 }
 
 .popup-content {
@@ -256,7 +250,7 @@ body {
 
 .content-site-textarea {
     padding-left: 22px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .popup-button {
@@ -265,9 +259,16 @@ body {
     width: 330px;
 }
 
-
 .popup-button-close {
-    top: -37px;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    color: #fff;
+    position: absolute;
+    top: -150px;
+    right: 0;
+    cursor: pointer;
+    background-image: url(/svg/form-x.svg);
   }
 
 .footer {
