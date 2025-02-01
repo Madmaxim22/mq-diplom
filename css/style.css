@@ -813,7 +813,7 @@ input[type="radio"]:checked + .radio-group-text::before {
     top: -119px;
     right: 0;
     cursor: pointer;
-    background-image: url(/svg/form-x.svg);
+    background-image: url(../svg/form-x.svg);
   }
 
 /*  <-- Footer start -->  */
