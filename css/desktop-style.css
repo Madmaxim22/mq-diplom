@@ -4,25 +4,20 @@ body {
 
 /*  <-- Header start -->  */
 .header {
-    height: 448px;
-    padding-left: 250px;
-    padding-right: 241px;
     padding-top: 29px;
-    padding-bottom: 145px;
+    padding-bottom: 126px;
     background-image: url("../img/Desktop/banner-bg.jpg");
 }
 
 .header-container {
-    margin-bottom: 108px;
+    max-width: 1170px;
+    margin-bottom: 100px;
+    align-items: center;
 }
 
 .menu {
     display: flex;
     justify-content: center;
-}
-
-.menu-item:hover {
-    text-decoration: underline;
 }
 
 .burger-checkbox {
@@ -44,38 +39,41 @@ body {
 
 .header-title {
     width: 690px;
+
     font-size: 45px;
-    font-weight: 700;
     line-height: 76px;
 }
 
+/*  <-- Main start -->  */
 .trend-container {
-    display: flex;
     gap: 5px;
 }
 
 .trend-head {
-    padding: 62px 15px 41px;
+    padding: 60px 15px 30px;
 }
 
+/*  <-- Title section page start -->  */
 .section-title {
     font-size: 20px;
 }
 
+.section-title::after {
+    margin-top: 10px;
+}
+/* <-- Title section page end --> */
+
 .section-content {
-    padding: 15px 20px;
-    min-height: 320px;
-    display: flex;
     width: calc(100% / 4 - 4px);
+    min-height: 320px;
+    padding: 15px 20px;
 }
 
 .content {
-    padding: 33px 28px 32px 32px;
+    padding: 35px 28px 32px 32px;
 }
 
 .section-trend .list-tag {
-    display: flex;
-    flex-wrap: wrap;
     gap: 5px 20px;
     margin-bottom: 10px;
 
@@ -83,39 +81,38 @@ body {
 }
 
 .title-trend {
-    width: 100%;
     font-size: 20px;
     line-height: 24px;
 }
 
 .main-container {
-    display: flex;
-    justify-content: space-between;
+    max-width: 1170px;
     padding-top: 62px;
-    padding-left: 245px;
-    padding-right: 243px;
 }
 
 .posts {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    gap: 36px;
+    width: 67%;
+    gap: 60px;
 }
 
 .posts-container {
+    border-bottom: none;
     flex-direction: row;
-    gap: 34px;
+    gap: 30px;
+    padding: 0;
+}
+
+.post-img {
+    width: 50%;
 }
 
 .post-content .list-tag {
-    margin-bottom: 5px;
+    margin-bottom: 4px;
     gap: 18px;
 }
 
 .posts .post-title {
     margin-bottom: 23px;
-    width: 85%;
 
     font-size: 20px;
     line-height: 23px;
@@ -125,27 +122,25 @@ body {
     margin-bottom: 43px;
 }
 
-
-.post-content {
-    width: 90%;
-    line-height: 21px;
-}
-
 .new-post-head {
-    padding-bottom: 43px;
+    padding-bottom: 28px;
 }
 
 .new-post-container {
     margin-bottom: 63px;
 }
 
-.mailing-group {
-    margin-bottom: 14px;
+.mailing-head {
+    padding-top: 61px;
 }
 
-.field:focus {
-    outline: none;
-    border-bottom: 1px solid #b59f5b;
+.mailing-group {
+    margin-bottom: 20px;
+}
+
+.tag-head {
+    padding-top: 59px;
+    padding-bottom: 27px;
 }
 
 .section-container .list-tag {
@@ -154,31 +149,22 @@ body {
 
 .topic-head {
     padding-top: 59px;
-    padding-bottom: 40px;
-}
-
-.tag-head {
-    padding-top: 60px;
-    padding-bottom: 39px;
+    padding-bottom: 26px;
 }
 
 .goods-container {
-    display: flex;
+    max-width: 1170px;
     gap: 5.5%;
     flex-wrap: nowrap;
-    padding-left: 245px;
-    padding-right: 245px;
+}
+
+.goods-head {
+    padding-top: 64px;
+    padding-bottom: 31px;
 }
 
 .goods {
     width: calc(100% / 3);
-    padding: 0;
-    margin: 0;
-    justify-content: start;
-}
-
-.goods-head {
-    padding-top: 42px;
 }
 
 .goods picture {
@@ -202,15 +188,30 @@ body {
 }
 
 .content-goods {
-    margin-bottom: 22px;
-
     line-height: 22px;
 }
 
-.button-goods:hover {
-    background-color: #000000;
+.frequence {
+    margin-bottom: 31px;
 }
 
+.radio-group-text {
+    margin-right: 16px;
+}
+
+.radio-group-text::before {
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;    
+}
+
+.popup-button-close {
+    width: 18px;
+    height: 18px;
+    top: -137px;
+}
+
+/*  <-- Footer start -->  */
 .footer {
     margin-top: 64px;
     padding-right: 245px;

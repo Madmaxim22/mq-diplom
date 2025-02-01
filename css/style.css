@@ -175,14 +175,15 @@ body {
 
 .header-logo-link {
     display: block;
-    margin: 0 auto;
     width: 268px;
+    margin: 0 auto;
 }
 
 .header-title {
     width: 332px;
     margin-left: auto;
     margin-right: auto;
+
     font-size: 27px;
     font-weight: 700;
     line-height: 36px;
@@ -220,7 +221,7 @@ body {
     margin-top: 11px;
     display: block;
 }
-/* <-- End --> */
+/* <-- Title section page end --> */
 
 .img-content {
     position: relative;
@@ -248,10 +249,10 @@ body {
 
 .section-content {
     box-sizing: border-box;
-    padding: 13px 15px 16px;
-    min-height: 232px;
     display: flex;
     align-items: flex-end;
+    min-height: 232px;
+    padding: 13px 15px 16px;
 }
 
 @media (orientation: landscape) and (max-width: 640px) {
@@ -304,8 +305,6 @@ body {
 }
 
 .title-trend {
-    width: 96%;
-
     color: #ffffff;
     font-size: 16px;
     font-weight: 700;
@@ -385,7 +384,6 @@ body {
 }
 
 .post-content {
-    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
 }
@@ -438,14 +436,12 @@ body {
 .form-search {
     height: 48px;
     position: relative;
-    min-width: 100%;
 }
 
 .field {
-    min-width: 100%;
+    width: 100%;
     height: 48px;
     box-sizing: border-box;
-  
     padding-left: 18px;
     padding-right: 66px;
     background-color: #f4f7f6;
@@ -497,7 +493,7 @@ body {
 }
 
 .mailing-group {
-    display:inline-block;
+    display: block;
     width: 100%;
     margin-bottom: 18px;
 }
@@ -511,7 +507,6 @@ body {
     font-weight: 700;
     font-size: 14px;
     color: #ffffff;
-    text-align: center;
 }
 
 .mailing-button:hover {
@@ -618,9 +613,7 @@ body {
 
 .content-goods {
     margin-bottom: 25px;
-    width: 102%;
 
-    font-weight: 400;
     font-size: 15px;
     line-height: 21px;
 }
@@ -832,8 +825,6 @@ input[type="radio"]:checked + .radio-group-text::before {
     flex-direction: column;
     text-align: center;
     gap: 50px;
-    
-    font-family: "Open Sans", "Arial", sans-serif;
   }
   
 .list-logo {
@@ -856,7 +847,6 @@ input[type="radio"]:checked + .radio-group-text::before {
     display: block;
     width: 20px;
     height: 20px;
-    /* padding: 31px 13px; */
 }
 
 .dribbble-img {
