@@ -850,15 +850,15 @@ input[type="radio"]:checked + .radio-group-text::before {
 }
 
 .dribbble-img {
-    background-image: url(/svg/001-dribbble.svg);
+    background-image: url(../svg/001-dribbble.svg);
 }
 
 .pinterest-img {
-    background-image: url(/svg/001-pinterest.svg);
+    background-image: url(../svg/001-pinterest.svg);
 }
 
 .tumblr-img {
-    background-image: url(/svg/003-tumblr.svg);
+    background-image: url(../svg/003-tumblr.svg);
 }
 
 .copyright {
